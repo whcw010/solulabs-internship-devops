@@ -24,6 +24,7 @@ $ docker compose up -d
 ### Custom jenkins image
 
 Secara default, image jenkins/jenkins tidak terdapat tools yang mungkin dibutuhkan pada proses deployment tertentu, seperti make atau docker. Dalam skenario ini, diperlukan untuk dibuatnya image custom menggunakan Dockerfile untuk menambahkan tools yang diperlukan
+
 Contoh:
 ```Dockerfile
 FROM jenkins/jenkins
