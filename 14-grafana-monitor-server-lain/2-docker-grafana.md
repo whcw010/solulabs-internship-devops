@@ -2,7 +2,7 @@
 
 Selain menjalankan secara native, solusi alternatif adalah dengan menggunakan docker untuk menjalankan grafana beserta software pendukungnya. Dengan metode ini, dapat dipastikan bahwa sistem akan berjalan dengan behaviour yang sama pada host machine yang berbeda. Proses deployment juga tersimplifikasi dan grafana dapat di-deploy dengan satu perintah di mesin manapun.
 
-Disini digunakan docker compose untuk 
+Disini digunakan docker compose untuk melakukan spesifikasi deployment setiap container yang dibutuhkan sistem. Container yang dideploy dari file compose yang sama juga terdapat satu network yang sama sehingga dapat saling berkomunikasi menggunakan nama container sebagai hostname tanpa perlu menggunakan port dari host machine.
 
 Pada contoh ini, diasumsikan bahwa docker telah terpasang pada mesin host dan nginx telah berjalan dan terkonfigurasi untuk mengekspos halaman stub_status pada url http://localhost:80/status
 
