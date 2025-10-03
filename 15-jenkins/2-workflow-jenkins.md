@@ -15,4 +15,4 @@ Jika repository bersifat private, diperlukan kredensial untuk melakukan clone te
 ### D. Buat pipeline jenkins
 Pipeline ini minimal perlu melakukan cloning terhadap repo kemudian melakuan building menggunakan kode yang telah di-pull. Pada opsi pemilihan trigger, pilih webhook, akan didapat url yang perlu dipanggil untuk memulai pipeline.
 ### E. Panggil url webhook dari github actions
-Pada script github actions, panggil url yang telah dispesifikasikan pada langkah D menggunakan curl. Untuk menyimpan token secret yang digunakan untuk autentikasi oleh jenkins, github menyediakan layanan github secret untuk menyimpan data sensitif seperti api token. Token yang disimpan pada github secret dapat melalui variabel
+Pada script github actions, panggil url yang telah dispesifikasikan pada langkah D menggunakan curl. Untuk menyimpan token secret yang digunakan untuk autentikasi oleh jenkins, github menyediakan layanan github secret untuk menyimpan data sensitif seperti api token. Token yang disimpan pada github secret dapat diakses seperti environment variabel. 
