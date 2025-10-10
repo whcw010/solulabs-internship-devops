@@ -1,4 +1,4 @@
-# Visualisasi Log Nginx Menggunakan Grafana yang Berjalan Secara Native
+# Visualisasi Log Nginx Menggunakan Grafana yang Berjalan pada Container Docker
 
 Selain menjalankan secara native, solusi alternatif adalah dengan menggunakan docker untuk menjalankan grafana beserta software pendukungnya. Dengan metode ini, dapat dipastikan bahwa sistem akan berjalan dengan behaviour yang sama pada host machine yang berbeda. Proses deployment juga tersimplifikasi dan grafana dapat di-deploy dengan satu perintah di mesin manapun.
 
