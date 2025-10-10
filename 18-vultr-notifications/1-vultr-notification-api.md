@@ -162,3 +162,7 @@ File Github action ini memiliki satu job yang terdiri dari tiga step:
     Setelah text dari message dibuat, akan dilakukan POST request terhadap API telegram dengan field yang sudah dispesifikasikan pada bagian sebelumya. 
 - ***log no alert***:
     Step akan dijalankan jika value variabel output has_alerts adalah false dan berfungsi untuk menulis log bahwa tidak ada alert yang perlu dikirmkan. 
+
+### Demo
+Berikut adalah hasil penjalanan workflow diatas pada klien telegram:
+![Screenshot Alert Telegram](.assets/telegram_screenshot.png)
