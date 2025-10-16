@@ -7,18 +7,18 @@ Arsitektur monolitik adalah suatu konsep desain aplikasi dimana setiap komponen 
 ### Kelebihan dan Kekurangan
 
 #### Kelebihan arsitektur monolitik:
-- Development
-    Pengembangan aplikasi lebih mudah karena aplikasi hanya terdiri dari satu codebase
-- Maintainance 
-    Karena semua komponen aplikasi dan bagaimana setiap komponen berkomunikasi dapat dilihat dari satu kodebase, developer dapat memahami cara kerja aplikasi dengan lebih mudah melakukan perubahan pada kode baik untuk menambah fitur baru atau bugfixing.
+- ***Development***
+Pengembangan aplikasi lebih mudah karena aplikasi hanya terdiri dari satu codebase
+- ***Maintainance***
+Karena semua komponen aplikasi dan bagaimana setiap komponen berkomunikasi dapat dilihat dari satu kodebase, developer dapat memahami cara kerja aplikasi dengan lebih mudah melakukan perubahan pada kode baik untuk menambah fitur baru atau bugfixing.
 
 #### Kekurangan arsitektur monolitik:
-- Skalabilitas
-    Pada aplikasi monolith hanya bisa dilakukan scaling dalam bentuk menduplikasi instance aplikasi termasuk komponen-komponen yang mungkin tidak butuh di-scaling.
-- Waktu deployment 
-   Semua komponen pada aplikasi monolitik perlu dideploy ulang ketika dilakukan update pada salah satu komponen.
-- Reliabilitas
-    Operasi seluruh aplikasi dapat terhenti ketika terjadi error pada salah satu komponen aplikasi.
+- ***Skalabilitas***
+Pada aplikasi monolith hanya bisa dilakukan scaling dalam bentuk menduplikasi instance aplikasi termasuk komponen-komponen yang mungkin tidak butuh di-scaling.
+- ***Waktu deployment***
+Semua komponen pada aplikasi monolitik perlu dideploy ulang ketika dilakukan update pada salah satu komponen.
+- ***Reliabilitas***
+Operasi seluruh aplikasi dapat terhenti ketika terjadi error pada salah satu komponen aplikasi.
 
 ### Use-case
 Monolithic architecture cocok digunakan pada aplikasi sederhana dengan fitur yang terbatas. Monolithic architecture juga sesuai jika diinginkan prototyping untuk mendapatkan minimal viable product secara cepat.

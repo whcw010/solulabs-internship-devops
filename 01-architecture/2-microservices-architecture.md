@@ -7,21 +7,21 @@ Layanan-layanan ini saling berkomunikasi melalui API (biasanya menggunakan proto
 ### Kelebihan dan Kekurangan
 
 #### Kelebihan arsitektur mikroservis:
-- Skalabilitas Tinggi
-    Setiap service dapat diskalakan secara independen sesuai dengan kebutuhan. 
+- ***Skalabilitas Tinggi***
+Setiap service dapat diskalakan secara independen sesuai dengan kebutuhan. 
 
-- Pengembangan Lebih Fleksibel
-    Tim yang berbeda dapat mengembangkan dan merilis fitur pada service masing-masing dengan teknologi dan jadwal yang berbeda. Hal ini sangat cocok untuk tim besar yang bekerja paralel.
+- ***Pengembangan Lebih Fleksibel***
+Tim yang berbeda dapat mengembangkan dan merilis fitur pada service masing-masing dengan teknologi dan jadwal yang berbeda. Hal ini sangat cocok untuk tim besar yang bekerja paralel.
 
-- Deployment Terpisah
-    Update pada satu service tidak memerlukan deployment ulang seluruh aplikasi. 
+- ***Deployment Terpisah***
+Update pada satu service tidak memerlukan deployment ulang seluruh aplikasi. 
 
 #### Kekurangan arsitektur mikroservis:
-- Kompleksitas Sistem Tinggi
-    Koordinasi antar banyak service memerlukan sistem orkestrasi dan komunikasi yang kompleks. 
+- ***Kompleksitas Sistem Tinggi***
+Koordinasi antar banyak service memerlukan sistem orkestrasi dan komunikasi yang kompleks. 
 
-- Overhead Operasional
-    Memerlukan effort lebih besar dalam hal monitoring, logging, testing, dan deployment.
+- ***Overhead Operasional***
+Memerlukan effort lebih besar dalam hal monitoring, logging, testing, dan deployment.
 
 ### Use-case
 Arsitektur microservices cocok digunakan untuk:
