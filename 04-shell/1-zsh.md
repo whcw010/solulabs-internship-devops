@@ -28,4 +28,3 @@ Berikut adalah fitur-fitur utama yang membedakan zsh dengan Bash:
 - **Aliases dan Functions yang Lebih Canggih**  
   Mendukung alias dan fungsi dengan syntax yang lebih fleksibel. Pengguna dapat membuat alias kompleks atau fungsi di file `.zshrc`.
 
-### Ohmyzsh
